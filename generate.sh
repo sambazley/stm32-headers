@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-export stm="f0 f1 f4 l4"
+set -e
+
+export stm="f0 f1 f4 l4 g0"
 
 for i in $stm; do
     rm -rf "$i"
